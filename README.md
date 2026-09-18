@@ -39,6 +39,11 @@ This section provides a comparative analysis of the different machine and ensemb
 This project presented an approach for classifying whether a patient should seek treatment to improve their mental health by using machine learning and ensemble methods. We collected a dataset name “Mental Health in Tech Survey” from Kaggle. The acquired dataset was preprocessed, erroneous data was removed and key features were extracted using correlation techniques. Data Visualization was performed to gain insights from the data and understand the distribution of the data.
 Different machine learning algorithms were trained and tested on the preprocessed dataset. The machine learning algorithms used are Decision Tree Classifier, Random Forest Classifier, KNN Classifier, Logistic Regression, LGBM Classifier, AdaBoost Classifier, Naïve Bayes Classifier, Extra Trees Classifier, Linear Discriminant Analysis and Support Vector Classifier. The metrics used for evaluation of models were accuracy, precision, recall and F1-score. The model which performed the best in predicting the target variable in terms of accuracy was LGBM Classifier, for the test dataset, LGBM Classifier had a 75.4% accuracy rate, in terms of precision the highest precision rate of 77.6% was achieved by Naïve Bayes and in terms of recall highest recall of 76.9% was achieved by Ada Boost Classifer, which also achieved the highest F1 - score of 74.7%. In this project it is necessary that model chosen has the least False Negative, which is achieved by Ada Boost, which has classified 28 labels as False Negative.
 
+##To Run locally<br>
+Execute<br> 
+pip install -r requirements.txt<br>
+streamlit run app.py
+
 
 
 
